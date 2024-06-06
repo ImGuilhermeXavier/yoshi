@@ -1,0 +1,93 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+  "organizeImports": {
+    "enabled": false
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "useAltText": "warn",
+        "useValidAnchor": "off",
+        "noDistractingElements": "warn",
+        "useAnchorContent": "warn",
+        "useButtonType": "warn",
+        "noRedundantRoles": "warn",
+        "useKeyWithClickEvents": "off"
+      },
+      "suspicious": {
+        "noExplicitAny": "off",
+        "noArrayIndexKey": "warn",
+        "noShadowRestrictedNames": "off",
+        "noConfusingVoidType": "warn",
+        "noConsoleLog": "warn",
+        "noDoubleEquals": "warn"
+      },
+      "complexity": {
+        "noForEach": "off",
+        "useOptionalChain": "warn",
+        "noExtraBooleanCast": "warn",
+        "useFlatMap": "warn",
+        "useSimplifiedLogicExpression": "warn",
+        "noUselessCatch": "warn",
+        "noUselessFragments": "warn",
+        "noUselessRename": "warn",
+        "noWith": "error",
+        "noBannedTypes": "warn",
+        "noVoid": "warn",
+        "noExcessiveCognitiveComplexity": "off",
+        "noUselessSwitchCase": "warn"
+      },
+      "nursery": {
+        "noUnusedImports": "warn",
+        "useExportType": "warn",
+        "useImportRestrictions": "off",
+        "noDuplicateJsonKeys": "warn",
+        "noEmptyBlockStatements": "warn",
+        "noInvalidUseBeforeDeclaration": "warn",
+        "noUselessLoneBlockStatements": "warn"
+      },
+      "performance": {
+        "noDelete": "warn",
+        "noAccumulatingSpread": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off",
+        "noUnusedVariables": "warn",
+        "noChildrenProp": "off",
+        "noSetterReturn": "off"
+      },
+      "style": {
+        "noUnusedTemplateLiteral": "warn",
+        "noVar": "error",
+        "noUselessElse": "warn",
+        "noShoutyConstants": "off",
+        "useEnumInitializers": "error",
+        "useSingleVarDeclarator": "warn",
+        "useTemplate": "warn",
+        "noNonNullAssertion": "warn"
+      },
+      "security": {
+        "noDangerouslySetInnerHtml": "off"
+      }
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "semicolons": "asNeeded",
+      "trailingComma": "es5",
+      "indentStyle": "space",
+      "indentWidth": 2,
+      "bracketSpacing": true
+    }
+  },
+  "json": {
+    "formatter": {
+      "enabled": false,
+      "indentWidth": 2,
+      "indentStyle": "space"
+    }
+  }
+}
