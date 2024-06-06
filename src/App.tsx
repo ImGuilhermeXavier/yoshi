@@ -5,7 +5,7 @@ function App() {
 	const [count, setCount] = useState(0);
 
 	return (
-		<section className="flex items-center justify-center h-svh bg-amber-900 -z-20">
+		<section className="flex items-center justify-center h-svh -z-20">
 			<Head />
 		</section>
 	);
