@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Head from "./components/Head";
 
 function App() {
